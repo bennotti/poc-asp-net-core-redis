@@ -1,0 +1,23 @@
+version: "2.3"
+
+services:
+    redis_local:
+        build:
+          context: .
+          dockerfile: ./redis/Dockerfile
+        image: redis_local
+        privileged: true
+        command: sh -c "./init.sh"
+        restart: always
+        network_mode: default
+        container_name: redis_local
+        volumes:
+          - redis_data:/data:rw
+          - ./redis/redis.conf:/usr/local/etc/redis/redis.conf
+        ports:
+          - 6379:6379
+volumes:
+   redis_data:
+networks:
+   default:
+     external: true

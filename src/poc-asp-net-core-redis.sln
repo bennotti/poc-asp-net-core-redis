@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poc-asp-net-core-redis", "poc-asp-net-core-redis.csproj", "{675BD83A-38EE-4196-B492-FD81F42ACC5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Local|Any CPU = Local|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{675BD83A-38EE-4196-B492-FD81F42ACC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675BD83A-38EE-4196-B492-FD81F42ACC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675BD83A-38EE-4196-B492-FD81F42ACC5D}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{675BD83A-38EE-4196-B492-FD81F42ACC5D}.Local|Any CPU.Build.0 = Local|Any CPU
+		{675BD83A-38EE-4196-B492-FD81F42ACC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675BD83A-38EE-4196-B492-FD81F42ACC5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF64EF0B-8E3D-46AA-8072-274B9BB4C1B3}
+	EndGlobalSection
+EndGlobal
